@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const HttpUrl = "http://localhost:5000/api/employee-list"
+const HttpUrl = "https://employee-project-fb4q.onrender.com/api/employee-list"
 
 const Dashboard = () => {
     const navigate = useNavigate()

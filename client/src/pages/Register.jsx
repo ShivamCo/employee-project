@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { login, selectAuthState } from "../store/store"
 import { useSelector } from "react-redux";
 
-const HttpUrl = "http://localhost:5000/api/register"
+const HttpUrl = "https://employee-project-fb4q.onrender.com/api/register"
 
 const RegisterPage = () => {
     const isAuthenticated = useSelector(selectAuthState);
